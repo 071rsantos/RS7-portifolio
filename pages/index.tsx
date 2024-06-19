@@ -6,6 +6,7 @@ import Sobre from "@/Components/Sobre";
 import Skils from "@/Components/Skils"
 import React, { useState } from "react";
 import Projetos from "@/Components/Projetos";
+import Contato from "@/Components/Contato";
 
 const HomePage = () => {
 
@@ -29,6 +30,8 @@ const HomePage = () => {
           <Skils/>
           {/* Projetos */}
           <Projetos/>
+          {/* Contato */}
+          <Contato/>
         </div>
       </div>
     </div>;
